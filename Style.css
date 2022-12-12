@@ -1,0 +1,96 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-image: url(image/1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container
+{
+    text-align: center;
+    padding-top: 50px;
+}
+h1
+{
+    font-size: 160px;
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(64, 0, 0, 0.534)
+    /* color: rgba(0, 0, 0, 0.31); */
+}
+input
+{
+    height: 40px;
+    width: 200px;
+    border-color: rgb(0, 0, 0);
+    border-inline: 6px solid red;
+    writing-mode: horizontal-tb;
+    border-radius: 4px;
+}
+#addTxt
+{
+    padding: 12px 36px;
+    color: #fff;
+    display: inline;
+    font-size: 15px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    border: none;
+    background: linear-gradient(90deg,#0162c8,#55e7fc);
+}
+#delAll
+{
+    padding: 12px 36px;
+    color: #fff;
+    display: inline;
+    font-size: 15px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    border: none;
+    background: linear-gradient(90deg,#755bea,#ff72c0);
+}
+
+.btnDel
+{
+    padding: 10px 20px;
+    color: #fff;
+    display: inline;
+    font-size: 10px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    border-radius: 30px;
+    border: none;
+    background: linear-gradient(90deg,#5dea5b76,#ff727e80);
+}
+.btnEdit{
+    padding: 10px 20px;
+    color: #fff;
+    display: inline;
+    font-size: 10px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    border-radius: 30px;
+    border: none;
+    background: linear-gradient(90deg,#bb880675,#ba020264);
+}
+.col-sm
+{
+    display: flex;
+    justify-content: center;
+}
+.box2
+{
+    background-image: url(image/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 5px 6px 6px 3px #721d009f, -8px -8px 7px 3px #0000006c ;
+    padding: 40px;
+}
